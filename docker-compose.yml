@@ -28,6 +28,11 @@ services:
             SHARELATEX_APP_NAME: Overleaf Community Edition
 
             SHARELATEX_MONGO_URL: mongodb://mongo/sharelatex
+	    ADMIN_MAIL: skemnitz@uni-greifswald.de
+            DOMAIN: uni-greifswald.de
+            LDAP_SERVER: ldaps://ldap.uni-greifswald.de:636
+            LDAP_BIND_DN: cn=HPC,ou=Auth-R,dc=LDAPManager,dc=TLD
+            LDAP_BIND_PW: da39a3ee5e6b4b0d3255bfef95601890afd80709
 
             # Same property, unfortunately with different names in
             # different locations
